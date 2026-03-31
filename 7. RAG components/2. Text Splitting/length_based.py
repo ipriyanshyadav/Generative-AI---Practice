@@ -2,7 +2,7 @@ from langchain.text_splitter import CharacterTextSplitter
 from langchain_community.document_loaders import PyPDFLoader
 
 loader= PyPDFLoader(
-    file_path= "dl-curriculum.pdf"
+    file_path="dl-curriculum.pdf"
 )
 
 data= loader.load()
